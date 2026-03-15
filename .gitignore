@@ -1,0 +1,34 @@
+# ===== MATLAB 自动生成文件 =====
+# Simulink 编译缓存
+slprj/
+*.slxc
+
+# MATLAB 自动备份文件
+*.asv
+*.autosave
+
+# MATLAB 临时文件
+*.mex*
+*.mlapp
+*.mlx.bak
+
+# ===== 训练结果数据（体积大，不纳入版本管理）=====
+saved_agents/
+saved_agents_td3/
+*.mat
+
+# ===== 仿真结果图片（可选：如需记录结果可注释掉）=====
+# *.png
+# *.fig
+
+# ===== 文档临时锁定文件 =====
+~$*.docx
+~$*.xlsx
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 其他 =====
+*.log
